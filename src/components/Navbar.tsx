@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="bg-tactical-dark text-white py-4 sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold">Tactical Gear Supply</Link>
+          <Link to="/" className="text-2xl font-bold">Barry's Tactical Gear Supply</Link>
           
           {/* Mobile menu button */}
           <div className="md:hidden">

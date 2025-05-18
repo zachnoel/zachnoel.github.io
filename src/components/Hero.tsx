@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative bg-tactical-dark text-white">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 opacity-40"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3')" }}
+        style={{ backgroundImage: "url('/images/tacGear1.jpg')" }}
       >
       </div>
       
@@ -23,10 +23,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Button asChild className="bg-tactical-green hover:bg-opacity-90 text-white">
-              <Link to="/body-armor">Shop Body Armor</Link>
-            </Button>
-            <Button asChild variant="outline" className="border-white text-white hover:bg-tactical-gray">
-              <Link to="/contact">Request Quote</Link>
+              <Link to="/contact">Request a Quote</Link>
             </Button>
           </div>
         </div>

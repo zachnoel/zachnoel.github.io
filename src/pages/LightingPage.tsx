@@ -12,42 +12,42 @@ const LightingPage = () => {
       name: 'Tactical Weapon Light',
       description: 'High-output weapon-mounted light with 1,500 lumens and strobe function for tactical applications.',
       price: 'From $299.99',
-      imageUrl: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
     },
     {
       id: 'l2',
       name: 'EDC Tactical Flashlight',
       description: 'Compact everyday carry tactical flashlight with multiple modes and aircraft-grade aluminum construction.',
       price: 'From $149.99',
-      imageUrl: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
     },
     {
       id: 'l3',
       name: 'Helmet-Mounted Light',
       description: 'Versatile helmet-mounted light with white, red, blue, and IR output for various tactical scenarios.',
       price: 'From $249.99',
-      imageUrl: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
     },
     {
       id: 'l4',
       name: 'Handheld Search Light',
       description: 'High-powered handheld searchlight with 4,000 lumen output and extended runtime for search operations.',
       price: 'From $399.99',
-      imageUrl: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
     },
     {
       id: 'l5',
       name: 'IR Illuminator',
       description: 'Dedicated infrared illuminator for enhanced night vision performance in zero-light conditions.',
       price: 'From $349.99',
-      imageUrl: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
     },
     {
       id: 'l6',
       name: 'Tactical Area Light',
       description: 'Deployable tactical area light for illuminating operational zones with 360° coverage and multiple power options.',
       price: 'From $599.99',
-      imageUrl: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
     },
   ];
 
@@ -59,7 +59,7 @@ const LightingPage = () => {
         <div className="relative bg-tactical-dark text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 opacity-40"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3')" }}
+            style={{ backgroundImage: "url('/public/images/0-1001-streamlight-tlr-7-sub-1913-black.webp')" }}
           ></div>
           
           <div className="container mx-auto px-4 py-16 relative z-10">

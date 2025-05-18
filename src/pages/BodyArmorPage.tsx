@@ -12,42 +12,42 @@ const BodyArmorPage = () => {
       name: 'Level IIIA Concealable Vest',
       description: 'Lightweight, concealable body armor providing NIJ Level IIIA protection against handgun threats.',
       price: 'From $899.99',
-      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg',
     },
     {
       id: 'ba2',
       name: 'Level IV Tactical Plate Carrier',
       description: 'Complete plate carrier system with Level IV ceramic plates for maximum protection against rifle threats.',
       price: 'From $1,499.99',
-      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg',
     },
     {
       id: 'ba3',
       name: 'Special Forces Plate Carrier',
       description: 'Military-grade modular plate carrier designed for special operations with multiple attachment points.',
       price: 'From $1,299.99',
-      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg',
     },
     {
       id: 'ba4',
       name: 'Level III+ Lightweight Plates',
       description: 'Lightweight polyethylene Level III+ armor plates providing protection against most rifle threats.',
       price: 'From $649.99',
-      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg',
     },
     {
       id: 'ba5',
       name: 'Tactical Vest with Integrated Pouches',
       description: 'Full tactical vest with integrated pouches for magazines, equipment, and armor plates.',
       price: 'From $899.99',
-      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg',
     },
     {
       id: 'ba6',
       name: 'Covert Body Armor Shirt',
       description: 'Concealable body armor integrated into a moisture-wicking compression shirt for maximum comfort.',
       price: 'From $799.99',
-      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg',
     },
   ];
 
@@ -59,7 +59,7 @@ const BodyArmorPage = () => {
         <div className="relative bg-tactical-dark text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 opacity-40"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3')" }}
+            style={{ backgroundImage: "url('/public/images/0-650-shellback-tactical-banshee-elite-2-0-plate-carrier-gen-2-black.jpg')" }}
           ></div>
           
           <div className="container mx-auto px-4 py-16 relative z-10">

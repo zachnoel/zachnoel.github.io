@@ -12,42 +12,42 @@ const NightvisionPage = () => {
       name: 'Gen 3 Night Vision Goggles',
       description: 'Military-grade Gen 3 night vision goggles with auto-gating for superior low-light performance.',
       price: 'From $3,499.99',
-      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/nightvision1.jpg',
     },
     {
       id: 'nv2',
       name: 'Thermal Imaging Scope',
       description: 'High-resolution thermal imaging scope for detecting heat signatures in complete darkness.',
       price: 'From $2,899.99',
-      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/nightvision1.jpg',
     },
     {
       id: 'nv3',
       name: 'Digital Night Vision Binoculars',
       description: 'Digital night vision binoculars with 4x magnification and video recording capabilities.',
       price: 'From $1,299.99',
-      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/nightvision1.jpg',
     },
     {
       id: 'nv4',
       name: 'Helmet-Mounted Night Vision System',
       description: 'Complete helmet-mounted night vision system for hands-free operation in tactical environments.',
       price: 'From $4,299.99',
-      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/nightvision1.jpg',
     },
     {
       id: 'nv5',
       name: 'IR Illuminator',
       description: 'Powerful infrared illuminator for extended range night vision operations in zero light conditions.',
       price: 'From $499.99',
-      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/nightvision1.jpg',
     },
     {
       id: 'nv6',
       name: 'Clip-On Night Vision Device',
       description: 'Versatile clip-on night vision device that attaches to existing day optics for nighttime use.',
       price: 'From $2,799.99',
-      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3',
+      imageUrl: '/public/images/nightvision1.jpg',
     },
   ];
 
@@ -59,7 +59,7 @@ const NightvisionPage = () => {
         <div className="relative bg-tactical-dark text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 opacity-40"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3')" }}
+            style={{ backgroundImage: "url('/public/images/nightvision1.jpg')" }}
           ></div>
           
           <div className="container mx-auto px-4 py-16 relative z-10">

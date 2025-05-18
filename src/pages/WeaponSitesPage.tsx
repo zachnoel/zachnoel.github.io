@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -12,42 +11,42 @@ const WeaponSitesPage = () => {
       name: 'Holographic Weapon Sight',
       description: 'Military-grade holographic weapon sight with unlimited eye relief and multi-coated optics for rapid target acquisition.',
       price: 'From $599.99',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3',
+      imageUrl: '/images/redDot.jpg',
     },
     {
       id: 'ws2',
       name: 'Red Dot Sight',
       description: 'Compact and lightweight red dot sight with multiple brightness settings for all lighting conditions.',
       price: 'From $299.99',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3',
+      imageUrl: '/images/redDot.jpg',
     },
     {
       id: 'ws3',
       name: 'Variable Power Combat Scope',
       description: '1-6x variable power scope with illuminated reticle, ideal for both close quarters and mid-range engagements.',
       price: 'From $899.99',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3',
+      imageUrl: '/images/redDot.jpg',
     },
     {
       id: 'ws4',
       name: 'Long Range Precision Scope',
       description: 'High-magnification scope with mil-dot reticle for long-range precision shooting and target identification.',
       price: 'From $1,299.99',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3',
+      imageUrl: '/images/redDot.jpg',
     },
     {
       id: 'ws5',
       name: 'Thermal Weapon Sight',
       description: 'Advanced thermal imaging weapon sight for detecting heat signatures in all weather and lighting conditions.',
       price: 'From $3,499.99',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3',
+      imageUrl: '/images/redDot.jpg',
     },
     {
       id: 'ws6',
       name: 'Laser Sight System',
       description: 'Visible and IR laser aiming system for rapid target acquisition in daylight and night operations.',
       price: 'From $799.99',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3',
+      imageUrl: '/images/redDot.jpg',
     },
   ];
 
@@ -59,7 +58,7 @@ const WeaponSitesPage = () => {
         <div className="relative bg-tactical-dark text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 opacity-40"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3')" }}
+            style={{ backgroundImage: "url('/images/redDot.jpg')" }}
           ></div>
           
           <div className="container mx-auto px-4 py-16 relative z-10">
