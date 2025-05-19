@@ -59,7 +59,7 @@ const NightvisionPage = () => {
         <div className="relative bg-tactical-dark text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 opacity-40"
-            style={{ backgroundImage: "url('/public/images/nightvision1.jpg')" }}
+            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3')" }}
           ></div>
           
           <div className="container mx-auto px-4 py-16 relative z-10">
