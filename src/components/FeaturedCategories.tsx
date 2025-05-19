@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CategoryCard from './CategoryCard';
 
@@ -15,7 +14,7 @@ const FeaturedCategories = () => {
       id: 2,
       title: 'Nightvision / IR',
       description: 'Advanced night vision and infrared optics for tactical operations.',
-      imageUrl: '/images/nightvision1.jpg',
+      imageUrl: '/images/nightVision1.jpg',
       link: '/nightvision',
     },
     {
@@ -29,7 +28,7 @@ const FeaturedCategories = () => {
       id: 4,
       title: 'Lighting',
       description: 'Tactical illumination solutions for any environment or mission.',
-      imageUrl: '/images/lighting.jpg',
+      imageUrl: '/images/0-1001-streamlight-tlr-7-sub-1913-black.webp',
       link: '/lighting',
     },
   ];

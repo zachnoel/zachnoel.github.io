@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -9,45 +8,45 @@ const NightvisionPage = () => {
   const products = [
     {
       id: 'nv1',
-      name: 'Gen 3 Night Vision Goggles',
-      description: 'Military-grade Gen 3 night vision goggles with auto-gating for superior low-light performance.',
-      price: 'From $3,499.99',
-      imageUrl: '/images/nightvision1.jpg',
+      name: 'Night Vision Goggles',
+      description: 'High-performance night vision goggles with advanced image intensification technology.',
+      price: 'From $2,999.99',
+      imageUrl: '/images/nightVision1.jpg',
     },
     {
       id: 'nv2',
       name: 'Thermal Imaging Scope',
-      description: 'High-resolution thermal imaging scope for detecting heat signatures in complete darkness.',
-      price: 'From $2,899.99',
-      imageUrl: '/images/nightvision1.jpg',
+      description: 'Long-range thermal imaging scope for target detection in complete darkness.',
+      price: 'From $3,499.99',
+      imageUrl: '/images/nightVision1.jpg',
     },
     {
       id: 'nv3',
-      name: 'Digital Night Vision Binoculars',
-      description: 'Digital night vision binoculars with 4x magnification and video recording capabilities.',
-      price: 'From $1,299.99',
-      imageUrl: '/images/nightvision1.jpg',
+      name: 'Digital Night Vision',
+      description: 'Digital night vision device with HD display and recording capabilities.',
+      price: 'From $1,499.99',
+      imageUrl: '/images/nightVision1.jpg',
     },
     {
       id: 'nv4',
-      name: 'Helmet-Mounted Night Vision System',
-      description: 'Complete helmet-mounted night vision system for hands-free operation in tactical environments.',
-      price: 'From $4,299.99',
-      imageUrl: '/images/nightvision1.jpg',
+      name: 'Night Vision Monocular',
+      description: 'Compact night vision monocular for tactical operations and surveillance.',
+      price: 'From $1,999.99',
+      imageUrl: '/images/nightVision1.jpg',
     },
     {
       id: 'nv5',
       name: 'IR Illuminator',
-      description: 'Powerful infrared illuminator for extended range night vision operations in zero light conditions.',
-      price: 'From $499.99',
-      imageUrl: '/images/nightvision1.jpg',
+      description: 'High-power infrared illuminator for enhanced night vision performance.',
+      price: 'From $299.99',
+      imageUrl: '/images/nightVision1.jpg',
     },
     {
       id: 'nv6',
-      name: 'Clip-On Night Vision Device',
-      description: 'Versatile clip-on night vision device that attaches to existing day optics for nighttime use.',
-      price: 'From $2,799.99',
-      imageUrl: '/images/nightvision1.jpg',
+      name: 'Night Vision Binoculars',
+      description: 'Dual-tube night vision binoculars for superior depth perception and field of view.',
+      price: 'From $4,999.99',
+      imageUrl: '/images/nightVision1.jpg',
     },
   ];
 
